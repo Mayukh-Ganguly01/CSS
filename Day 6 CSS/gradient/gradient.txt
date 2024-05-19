@@ -1,0 +1,13 @@
+CSS gradient 
+1. linear gradient:-  background-image: linear-gradient(red, blue); by default its top to down 
+   background-image: linear-gradient(to right, red, blue); left -> right 
+   background-image: linear-gradient(to bottom right, red, blue);  up left -> bottom right
+   background-image: linear-gradient(45deg, red, blue); using angles 
+   background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0,0,255,1)); transperency 
+2. raidal gradient:  background-image: radial-gradient(red, blue, green); 
+    background-image: radial-gradient(red 10%, blue20%, green50%); 
+
+CSS shadow 
+1. text shadow:-  text-shadow: 3px 3px 3px red; //(last 3px is for blur effect)
+2. box shadow:- box-shadow: 10px 10px 3px green; //(text shadow color = box shadow color by default) 
+

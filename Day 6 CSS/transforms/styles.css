@@ -1,0 +1,11 @@
+.box{
+    background-color: aqua;
+    /* transform: translate(500px,50px); */
+    /* transform: rotate(-45deg); */
+    margin: 200px;
+    transform: scale(1.9,4); 
+    /* we can use scaleX and scaleY like 1.5times, 2times */
+    /* transform: scaleX(1.5); */
+    transform: skew(-30deg);
+    /* H.W transform matrix */
+}

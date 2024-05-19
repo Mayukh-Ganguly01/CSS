@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 500px;
+    background-color: yellow;
+    border: 2px solid red;
+}
+.box{
+    height: 212px;
+    width: 212px;
+    border: 2px solid green;
+    background-color: aqua;
+    animation-name: mayukh;
+    animation-duration: 3s;
+    animation-iteration-count: 5;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    /* animation-direction: normal; */
+    animation-fill-mode: backwards;
+    /* forward means it goes to the ending state and stops  
+    backwards means it goes to the ending state and when it finishes it comesback to its initial state*/
+}
+
+@keyframes mayukh {
+    0%{
+        width: 30%;
+        background-color: orange;
+    }
+    50%{
+        width: 60%;
+        background-color: white;
+
+    }
+     100%{
+        width: 100%;
+        background-color: green;
+     }
+}
+/* @keyframes mayukh {
+    from{
+        width: 212px;
+    }
+    to{
+        width:800px;
+    }
+} */

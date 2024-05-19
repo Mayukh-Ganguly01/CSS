@@ -1,0 +1,20 @@
+.container{
+    height: 700px;
+    border: 1px solid red;
+    background-color: yellow;
+    display: grid;
+    grid-gap: 10px;
+   
+    grid-auto-rows: minimax(100px auto);
+    /* like facebook feeds and 100px minimum height and maximum is idk so set auto */
+    grid-template-columns: repeat(4, 1fr) ;
+    /* grid auto column exists or not --> yes it exitst */
+}
+.box{
+    background-color: aqua;
+    border: 1px solid green;
+    /* height: 100px;
+    width: 100px; */
+    
+    
+}

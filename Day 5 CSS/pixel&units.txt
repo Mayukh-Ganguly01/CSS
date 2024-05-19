@@ -1,0 +1,14 @@
+<!-- what is pixel -->
+two different types of pixel 
+1. hardware pixel 
+2. css pixel -> (1/96) of an inch 
+
+pixel is absolute unit it is fixed like other mm,cm,in so it shows the same like in phone, laptop, tablet
+
+so there are 3 types of units:
+1 absolute unit -> 10px
+2.percentage unit -> 10%
+3.relative unit -> 
+    i.relative unit to font size: em(depending on perent) and rem(depending on root)
+    ii.relative unit to viewport: vw(1/100 width of viewport) and vh(1/100 height of viewport)
+    

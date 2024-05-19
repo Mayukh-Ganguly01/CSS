@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: var(--bgOrange);
+    width: fit-content;
+    padding: 0.8rem 2.3rem;
+    color: white;
+    font-size: 18px;
+    box-shadow: 5px 5px 7px 0px #0000003f;
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: 500;
+    border: solid 3px transparent;
+    
+
+}
+
+/* before sudoselector: u can put something before by the help of before sudoselector */
+.button::before{
+    content: "";
+    background-color: #1f1f1f;
+    position: absolute;
+    top:0px;
+    left:0;
+    right:0;
+    bottom:0 px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: all 0.8s;
+    z-index: -1;
+
+}
+.button:hover::before{
+    transform: scaleX(1);    
+}
+.button:hover{
+    border: solid 3px var(--bgOrange);
+    color: black;
+}
